@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="GitHub:realTheCarlo" />
+
+    <title>javaScript Final Project</title>
+
+    <script
+      src="https://kit.fontawesome.com/ad32aabaf9.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="../css/global.css" />
+    <link rel="stylesheet" href="../css/shop.css" />
+  </head>
+  <body>
+    <header class="shope-header column-flex">
+      <div class="shope-header_title row-flex">
+        <img src="../image/logo-left.png" />
+        <span class="shope-title">KaviR Shope</span>
+      </div>
+
+      <div class="shope-header_search row-flex">
+        <div class="back-page row-flex">
+          <a href="../index.html"
+            ><i class="fa-solid fa-arrow-left back-icon"></i
+          ></a>
+
+          <a href="../index.html" class="back-btn">Back</a>
+        </div>
+
+        <div class="shope-search_container row-flex">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" placeholder="Search" id="shope-search" />
+        </div>
+      </div>
+    </header>
+
+    <section class="product-category column-flex">
+      <div class="product-category_option1 row-flex">
+        <span class="category-option category-active">All</span>
+        <span class="category-option">Electronics</span>
+        <span class="category-option">Jewelery</span>
+      </div>
+
+      <div class="product-category_option2 row-flex">
+        <span class="category-option">Men's Clothing</span>
+        <span class="category-option">Women's Clothing</span>
+      </div>
+    </section>
+
+    <main class="shope-main">
+      <section class="buy-product"></section>
+
+      <section class="shope-container row-flex"></section>
+    </main>
+
+    <script src="../js/shop.js" type="module"></script>
+  </body>
+</html>

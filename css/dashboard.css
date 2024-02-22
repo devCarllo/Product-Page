@@ -1,0 +1,123 @@
+/* ________ HEADER ________ */
+
+.dashboard-header {
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid var(--border2);
+}
+.dashboard-header_title {
+  width: 100%;
+  padding: 10px;
+  background-color: var(--lightBackGround);
+  border-radius: 5px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.dashboard-title {
+  font-size: 1.5rem;
+  color: var(--highlight);
+  font-weight: bold;
+  margin-left: 5px;
+  letter-spacing: 3px;
+}
+
+.dashboard-header_search {
+  width: 100%;
+  justify-content: space-between;
+}
+.back-page {
+  width: 30%;
+  padding: 10px;
+  justify-content: flex-start;
+}
+.back-icon {
+  color: var(--titleColor);
+  margin-right: 10px;
+}
+.back-btn {
+  color: var(--titleColor);
+  font-weight: bold;
+}
+.back-btn:visited {
+  color: var(--titleColor);
+}
+
+.dashboard-search_container {
+  width: 50%;
+  padding: 5px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}
+.search-icon {
+  color: gray;
+  margin-right: 5px;
+}
+#dashboard-search {
+  width: 100%;
+  color: gray;
+  padding: 2px;
+}
+
+/* ________ MAIN ________ */
+
+.dashboard-main {
+  width: 100%;
+}
+.dashboard-users_container {
+  width: 100%;
+  justify-content: flex-start;
+  padding: 5px;
+}
+.dashboard-Title_users {
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 3px solid var(--border);
+  padding: 10px;
+  border-radius: 15px;
+  position: sticky;
+  margin-bottom: 15px;
+  z-index: 2;
+}
+.dashboard-title_name,
+.dashboard-title_username,
+.dashboard-title_email {
+  background-color: var(--lightBackGround);
+  padding: 5px;
+  border-radius: 5px;
+  color: var(--highlight);
+  text-align: center;
+}
+
+.dashboard-content_users {
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.user {
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  padding: 5px;
+  color: var(--titleColor);
+  margin-bottom: 15px;
+  background-color: var(--lightBackGround);
+  border: 1px solid var(--border2);
+  border-radius: 5px;
+}
+
+.user-family,
+.user-name,
+.user-mail {
+  text-align: center;
+  padding: 0 3px;
+}
+
+.logout-btn {
+  width: 110px;
+  padding: 7px 2px;
+  background-color: var(--titleColor);
+  color: var(--backGroundColor);
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
