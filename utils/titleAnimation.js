@@ -1,5 +1,5 @@
 const textContainer = document.getElementById("title");
-const text = "KaviR Shope";
+const text = "KaviR Shop";
 let index = 0;
 let timing = 0;
 
