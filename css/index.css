@@ -591,7 +591,7 @@
 .license {
   width: 100%;
   text-align: center;
-  margin: 20px auto;
+  margin: 20px auto 0;
   background-color: #000;
   padding: 10px;
   border-radius: 5px;
