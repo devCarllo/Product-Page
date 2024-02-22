@@ -12,7 +12,7 @@ const onlineHandler = (data) => {
 
 const offlineHandler = () => {
   container.style.border = `1px solid #ff0000`;
-  text.innerText = "You Are Offline";
+  text.innerText = "No Internet Connection";
   led.style.backgroundColor = "#ff0000";
 };
 
